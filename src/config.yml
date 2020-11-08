@@ -4,5 +4,5 @@
 # The command names have to be those of the server names, and they have to be seperated with a comma and a space (Factions, Hub, Lobby, etc...)
 commands: Lobby
 
-# String sent to the player when he's sent to a server
-message: &6Sending you to %s...
+# String sent to the player when he's sent to a server, use § instead of &
+message: §6Sending you to %s...

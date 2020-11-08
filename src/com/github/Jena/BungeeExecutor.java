@@ -23,7 +23,7 @@ public class BungeeExecutor extends Command {
             if (serverInfo.getMotd() != null) {
                 if (serverInfo.canAccess(cs)) {
                     String message = BungeeMain.configuration.getString("message").replace("%s", string);
-                    cs.sendMessage(ChatColor.translateAlternateColorCodes('&', message));
+                    cs.sendMessage(message);
                     ((ProxiedPlayer) cs).connect(serverInfo);
                 }
             } else {

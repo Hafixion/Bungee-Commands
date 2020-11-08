@@ -20,7 +20,6 @@ public class BungeeMain extends Plugin {
     @Override
     public void onEnable() {
         super.onEnable();
-        getLogger().info("I hope this shit works");
         saveDefaultConfig();
         setPlugin();
         setConfig();
